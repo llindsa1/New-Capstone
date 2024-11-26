@@ -1,0 +1,92 @@
+/* styles.css */
+/* General Reset */
+
+  /* Body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  /* Main Container */
+  main {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  /* Header styling */
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  header h1 {
+    font-size: 2rem;
+    color: #4CAF50;  /* Green for the app title */
+  }
+  /* Task List Container */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  /* Buttons and Forms */
+  button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  input, textarea {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  input[type="text"], textarea {
+    font-size: 1rem;
+  }
+  input[type="submit"] {
+    margin-top: 20px;
+    background-color: #007BFF;
+    width: auto;
+  }
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  /* Footer */
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
